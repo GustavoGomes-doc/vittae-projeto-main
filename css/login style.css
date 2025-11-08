@@ -57,7 +57,7 @@ input, button{
 }
 
 input{
-    background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(0, 0, 0, .2);
     color: rgba(255, 255, 255, .9);
 }
 
@@ -95,7 +95,7 @@ p{
 .containerPai {
     width: 100%;
     height: 100vh;
-    background-color: #14151A;
+    background-color: #f1e0ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +105,7 @@ p{
 .card{
     width: 80%;
     height: 90vh;
-    background-color: rgba(225, 255, 255, .10);
+    background-color: #ffffff;
     border-radius: 32px;
     padding: 32px, 20px;
     display: flex;
@@ -114,6 +114,9 @@ p{
     position: relative;
     overflow: hidden;
 
+    h2 {
+        color: black;
+    }
 }
 .direita, .esquerda{
     width: 50%;
@@ -137,7 +140,7 @@ p{
 .facaLogin, .facaCadastro{
     position: absolute;
 
-    h2, p{
+    h2 , p {
         color: rgba(0, 0, 0, .8);
         
     }
