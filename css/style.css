@@ -384,6 +384,21 @@ main {
     padding: 4rem 0;
 }
 
+
+.content-final {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.content-final:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
 .content-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -472,6 +487,7 @@ main {
     background-color: #374151;
     color: white;
     padding: 3rem 0 1rem;
+
 }
 
 .footer-content {
